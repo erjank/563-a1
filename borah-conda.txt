@@ -1,0 +1,9 @@
+# install conda
+wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+bash Miniforge3-$(uname)-$(uname -m).sh
+
+mamba create -n 563 -c conda-forge matplotlib numpy
+mamba activate 563
+
+python -m ipykernel install --user --name 563 --display-name Python-563
+
