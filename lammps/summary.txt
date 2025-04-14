@@ -1,0 +1,6 @@
+lmp -in in.nvt-generate-general -v numDen 0.6 -v T_target 1.0 -v eqSteps 1000
+
+lmp -in in.nvt-general-rdf -v confFileName equil-rho0.6-T1.0.dat.out -v T_target 1.0 -v mySeed 2024 - v nRdFBins 100 -v rdfCutoff 5.0 -v tag prod-rho0.6 -v prodSteps 10000
+
+lmp -in in.nvt-general-rdf -v confFileName equil-rho0.6-T1.0.dat.out -v T_target 1.0 -v mySeed 2024 -v nRdfBins 100 -v rdfCutoff 5.0 -v tag prod-rho0.6 -v prodSteps 10000
+
