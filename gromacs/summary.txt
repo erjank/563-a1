@@ -1,3 +1,5 @@
+# Don't forget to module load gromacs, and maybe module unload lammps
+
 # Solvate a box of water
 1. $ gmx_mpi solvate -cs tip4p -o conf.gro -box 2.3 2.3 2.3 -p topol.top
 

@@ -1,3 +1,5 @@
+# don't forget to module load lammps and maybe module unload gromacs
+
 # generate a configuration with your preferred number density and temperature
 lmp -in in.nvt-generate-general -v numDen 0.6 -v T_target 1.0 -v eqSteps 1000
 
