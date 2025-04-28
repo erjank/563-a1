@@ -1,0 +1,39 @@
+[ bondedtypes ]
+; bonds  angles  dihedrals  impropers all_dihedrals nrexcl HH14 RemoveDih
+  4      1       3          1         1             3      1    0
+
+; PG
+[ PG ]
+ [ atoms ]
+C1     opls_    -0.240     1
+C2     opls_     0.060     1
+C3     opls_     0.060     1
+C4     opls_     0.060     1
+C5     opls_     0.060     1
+C6 
+O1 
+O2 
+O3 
+H1 
+H2 
+H3 
+H4 
+H5 
+H6 
+
+ [ bonds ]
+C1 C2
+C1 H1
+C1 C6
+C2 O3
+C2 C3
+C3 H1
+C3 C4
+C4 O2
+C4 C5
+C5 H3
+C5 C6
+O1 H4 
+O2 H5
+O3 H6
+

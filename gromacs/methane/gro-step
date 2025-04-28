@@ -1,0 +1,4 @@
+
+JOB=$1
+mpirun -np 1 -npernode 4 gmx_mpi grompp -f ../mdp/${JOB}.mdp -o ${JOB}.tpr -pp ${JOB}.top -po ${JOB}.mdp
+#mpirun -np 1 -npernode 4 gmx_mpi mdrun -s ../mdp/${JOB}.tpr -o ${JOB}.trr -x ${JOB}.xtc -c ${JOB}.gro -e ${JOB}.edr -g ${JOB}.log
