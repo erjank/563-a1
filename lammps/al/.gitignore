@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+al.dat.out
+al.o*
+log.lammps
+starting.dat.out
